@@ -133,6 +133,9 @@
     line-height: 60px;
    box-shadow: 2px 2px 2px 2px rgb(195, 192, 192);
 }
+li{
+    list-style: none;
+}
 .pep p{
     margin-top: 6px;
     height: 10px;
