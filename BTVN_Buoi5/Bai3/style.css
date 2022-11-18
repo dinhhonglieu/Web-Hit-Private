@@ -83,12 +83,22 @@ justify-content: space-around;
 .head-nav ul li:hover {
     background-color: aqua;
 }
+.nav-search{
+    position: relative;
+}
 .nav-search input{
+   
     width: 220px;
     height: 30px;
     border: 0 ;
     cursor: pointer;
     border-radius: 10px 0 10px 10px ;
+}
+.nav-search i{
+    position: absolute;
+    left: 90%;
+    top: 40%;
+    color: #424242;
 }
 .content-bb{
     margin-top: 70px;
