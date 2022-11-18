@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: aqua;
+    background-color: #3d9fb8;
 }
 .container{
     width: 88%;
@@ -58,7 +58,6 @@ li{
 
 }
 .content-left{
-    /* margin-right: 30px; */
     margin: 0 30px;
     text-align: left;
     display: flex;
@@ -80,7 +79,8 @@ height: 58px;
 
 .content-left p{
     margin-top: 10px;
-    color: black;
+    color: rgb(67, 65, 65);
+    margin: 25px 0;
 }
 .content-left button{
     background-color: red;
