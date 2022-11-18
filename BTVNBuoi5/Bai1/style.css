@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: cadetblue;
+}
+.container{
+    text-align: center;
+}
+.center{
+    margin: 30px auto;
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+input{
+    border: none;
+    margin: 20px;
+    margin: 20px 0;
+    text-align: left;
+}
+.use{
+    margin: 30px;
+}
+.usser{
+    text-align: left;
+}
+.forget{
+   
+    text-align: right;
+}
+button{
+    margin: 20px 0;
+    width: 100%;
+    height: 40px;
+    background-color: aqua;
+    color: #fff;
+    border-radius: 15px;
+    border: 1px solid aqua;
+}
+.icon{
+/* text-align: center; */
+    display: flex;
+    margin: 20px;
+    
+    justify-content: center;
+}
+.icon i{
+    margin: 0 5px;
+    font-size: 20px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    border: 1px solid #fff;
+}
+.icon i:nth-child(1),
+.icon i:nth-child(2){
+    color: #fff;
+    background-color:rgb(50, 50, 248) ;
+}
+.icon i:nth-child(3){
+    color: #fff;
+    background-color: red;
+}
+.or{
+    margin: 20px;
+    text-align: center;
+}
+.foot{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
