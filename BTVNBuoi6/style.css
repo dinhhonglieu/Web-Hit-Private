@@ -328,7 +328,7 @@ button,
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        height: 50vh;
+        height: 100vh;
     }
     .Text-img{
         width: 100% !important;
