@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    /* width: 100px; */
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    /* margin: 10px; */
+}
+/* .box:nth-child(2n+2){
+    background-color: black;
+} */
+.box:active{
+    background-color: antiquewhite;
+}
+.box:last-child{
+    background-color: blueviolet;
+    color: blue;
+}
+h2::before{
+    content: "tetetetettettetettett";
+}
+h2::after{
+    content: "mmmmmmmmmmm";
+    /* width: 100px;
+    height: 40px; */
+    background-color: bisque;
+}
+p{
+    font-size: 30px;
+}
+p::selection{
+    color: yellow;
+}
+.container {
+    column-gap: 30px;
+    row-gap: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-rows: 300px ; */
+}
+.box{
+    background-color:pink;
+   
+}
+/* gop hang */
+
+.box1{
+    /* grid-row: 1/3; */
+    grid-column: 1/3;
+}
