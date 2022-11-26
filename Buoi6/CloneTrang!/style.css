@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hear{
+    width: 100%;
+    height:50px ;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu{
+    width: 40%;
+
+}
+.nav-menu>ul{
+    display: flex;
+}
+.nav-menu ul li{
+    list-style: none;
+    padding: 15px 15px;
+}
+.nav-menu ul a{
+    font-size: 17px;
+}
+.nav-menu ul a,
+.nav-menu ul i,
+.nav-icon .nav-icon i{
+    text-decoration: none;
+    color: #000;
+
+}
+.nav-menu ul li:hover {
+    background-color:rgb(234, 218, 218) ;
+    cursor: pointer;
+}
+.nav-icon{
+    width: 4%;
+    height: 50px;
+
+}
+.nav-icon i{
+    font-size: 22px;
+    font-weight: bold;
+}
+ .nav-icon{
+    padding: 3px;
+    width: 4%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-icon:hover .icon{
+    background-color:rgb(245, 35, 35);
+    cursor: pointer;
+    padding: 12.2px;
+}
+.container{
+    width: 100%;
+    margin-top: 50px;
+    background-color: #ccc;
+}
+.content{
+    width: 96%;
+    padding: 70px;
+    margin: 0 auto;
+}
+.about{
+    text-align: center;
+}
+.about h3{
+    margin: 20px 0;
+    font-size: 26px;
+}
+.about img{
+    width: 80%;
+}
+.about h3{
+    margin: 20px 0;
+    font-weight: 400;
+}
+.about p{
+    margin: 20px;
+    text-transform: inherit;
+}
+.nav-menu li{
+    position: relative;
+}
+.nav-menu .con{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+
+}
+.nav-menu li:hover .con{
+    display: block;
+}
+.food{
+    margin: 40px 0;
+    width: 100%;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+}
+.list-food{
+    margin: 1%;
+    width: 23%;
+    text-align: center;
+}
+.list img{
+    width: 100%;
+}
+.list-food h2{
+    margin: 10px 0;
+}
+.so{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40%;
+}
+.so ul{
+    display: flex;
+}
+.number ul li{
+    padding: 10px 15px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 30%;
+    margin: 2%;
+}
+

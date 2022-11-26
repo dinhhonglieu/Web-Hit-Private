@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about{
+    position: relative;
+    width: 40%;
+    /* height: 400px; */
+    overflow: hidden;
+
+
+}
+img{
+    width: 100%;
+    height: auto;
+}
+ .text{
+    position: absolute;
+    top: 30%;
+    padding: 10px;
+    opacity: 0;
+    background-color: aquamarine;
+}
+.about:hover .text{
+    opacity: 1;
+    
+}
